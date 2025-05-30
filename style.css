@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.navbar{
+    background-color: rgba(71, 246, 223, 0.773);
+    height:40px;
+}
+.nav-links{
+    text-decoration: none;
+    white-space:nowrap;
+    overflow: hidden;
+    
+}
+#logo{
+    font-size: 35px;
+    color:rgb(150, 16, 87);
+    margin-left: 10px;
+    display: inline;
+}
+#two,#three,#four,#five{
+    margin-left: 45px;
+    text-decoration: none;
+    
+}
+#one{
+    margin-left: 300px;
+    text-decoration: none;
+}
+
+
+/* Hero with background image */
+.hero-section {
+  background: url('dingzeyu-li-ie8WW5KUx3o-unsplash.jpg') no-repeat center center/cover;
+  background-blend-mode: lighten;
+  color: rgb(11, 0, 0);
+  text-align:left;
+  padding: 120px 0px;
+  position: relative;
+h1{
+    font-weight: bolder ;
+    font-size: 35px;
+  }
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 40px;
+  border-radius: 10px;
+}
+#explore,#contact-us{
+    padding: 15px 30px;
+  font-size: 18px;
+  background-color: #555;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* class section with image */
+.section-services{
+    font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-top {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 48px;
+}
+
+.card-bottom {
+  padding: 20px;
+  text-align: left;
+}
+
+.card-bottom h3 {
+  margin: 0 0 10px;
+  font-weight: 600;
+  color: #222;
+}
+
+.card-bottom p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.days {
+  font-weight: bold;
+}
+
+.time {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.schedule-btn {
+  padding: 12px 28px;
+  background-color: #009e7f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-btn:hover {
+  background-color: #007a63;
+}
+#about{
+    background-color:rgba(214, 253, 241, 0.279);
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px;
+    flex-direction: column;
+    margin:40px;
+    margin-left: 100px;
+    
+}
+
+.about-section {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin: 40px;
+}
+
+.about-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-image img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.image-features {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 60px;
+  color: #0a6158;
+  font-weight: 500;
+  text-align: left;
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.features {
+  list-style: disc;
+  padding-left: 20px;
+  color: #0a6158;
+}
+
+
+
+
+
+/* Testimonials with images */
+.testimonial {
+  background: #f9f9f9;
+  padding: 30px;
+  border: 2px solid #00d8ff;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+
+
+.contact-section {
+  background-color: #d9fbf8ac;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  gap: 40px;
+  flex-wrap: wrap;
+  
+}
+
+.contact-form, .contact-info {
+  background-color: rgba(225, 201, 249, 0.223);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #059a8f;
+  color: rgb(249, 245, 245);
+  border: none;
+  padding: 12px 20px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form .note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #faf1a198;
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  background-color: #c5f6f4;
+  padding: 8px;
+  border-radius: 50%;
+}
+.site-footer {
+  background-color: #004d40;
+  color: white;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  color: #b2dfdb;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #e0f2f1;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-form input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form button {
+  padding: 8px;
+  background-color: #26a69a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #00796b;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #00695c;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+
